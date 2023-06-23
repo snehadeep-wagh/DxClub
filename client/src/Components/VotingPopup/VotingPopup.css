@@ -1,0 +1,12 @@
+.voting-popup {
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.vote-bottom{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}

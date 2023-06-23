@@ -1,0 +1,42 @@
+.proposal-component {
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    margin-top: 1rem;
+    border: 1px rgb(216, 216, 216) solid;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.proposal-component-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-style {
+    border-radius: 20px;
+    width: fit-content;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+    color: whitesmoke;
+}
+
+.status-closed {
+    background-color: red;
+}
+
+.status-active {
+    background-color: green;
+}
+
+.status-pending {
+    background-color: gray;
+    font-size: 1px;
+    color: whitesmoke;
+}
+
+.perc-back{
+    background: rgba(203, 203, 203, 0.696);
+    padding: 0.4rem 0.4rem;
+    border-radius: 10px;
+}

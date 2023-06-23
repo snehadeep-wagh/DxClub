@@ -1,0 +1,25 @@
+.request-component {
+    border: 0.5px rgb(224, 221, 221) solid;
+    background-color: whitesmoke;
+    border-radius: 8%;
+    margin: 0.5rem 1rem;
+    padding: 1rem;
+}
+
+.request-h5 {
+    margin: 0;
+    color: rgb(22, 21, 21);
+    text-transform: capitalize;
+}
+
+.loader-container1 {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    z-index: 1;
+}

@@ -1,0 +1,73 @@
+.club-container{
+    width: 90%;
+    margin: 10px auto;
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+}
+
+.club-c-left{
+    background-color: whitesmoke;
+    flex: 2.5;
+    margin: 25px;
+    /* padding: 0rem 0.1rem; */
+    border-radius: 5%;
+    border: 0.5px rgb(224, 221, 221) solid;
+}
+
+.club-c-right{
+    flex: 7;
+    padding: 25px;
+}
+
+.club-c-left-bottom{
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+.club-c-left-bottom-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.club-c-left-bottom>ul>li{
+    list-style-type: none;
+    padding: 0.3rem 0.5rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-left: 2px;
+    width: 90%;
+    border-radius: 1%;
+    background-color: whitesmoke;
+}
+
+.club-c-left-bottom>ul>li:hover{
+    cursor: pointer;
+}
+
+.club-c-left-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.club-avatar{
+    margin: 20px auto;
+}
+
+.join-btn{
+    width: 6rem;
+    height: 3rem;
+    color: whitesmoke;
+    background-color: rgb(109, 109, 241);
+    border: none;
+    border-radius: 10%;
+}
+
+.shadow-class{
+    box-shadow: rgb(120, 119, 119) -3px 0px 0px;
+    font-weight: bold;
+}

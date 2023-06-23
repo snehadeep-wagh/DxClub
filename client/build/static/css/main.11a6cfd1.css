@@ -1,0 +1,107 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+h2 {
+    font-weight: 300
+}
+
+form {
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 2rem 0 1rem;
+    padding: 2rem
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    cursor: pointer;
+    float: right
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: .3rem;
+    width: 15rem
+}
+
+footer p {
+    font-size: .9rem;
+    margin: 0
+}
+
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    margin: 0 auto
+}
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.primary-button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    padding: .6rem;
+    text-transform: capitalize;
+    transition: all .5s;
+    width: 10rem
+}
+
+#sub_btn,
+.primary-button {
+    background: #222;
+    border: none;
+    color: #fff
+}
+
+#sub_btn {
+    border-radius: 3px;
+    display: block;
+    padding: .3rem;
+    width: 100%
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+/*# sourceMappingURL=main.11a6cfd1.css.map*/

@@ -1,0 +1,43 @@
+.club-about {}
+
+.member-container {
+    /* background-color: gray; */
+    width: 100%;
+    margin: 1rem 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    border: 0.5px darkgray solid;
+}
+
+.member-container-i {
+    /* background-color: gray; */
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    border: 0.5px darkgray solid;
+}
+
+.admin-back {
+    background-color: var(--gray);
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0.1rem 0.2rem;
+    font-size: xx-small;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.about-avatar {
+    margin-right: 0.5rem;
+    height: fit-content;
+}
+
+.member-container-i-top {
+    display: flex;
+}

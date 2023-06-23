@@ -1,0 +1,82 @@
+.new-proposal{
+    width: 90%;
+    margin: 10px auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.new-proposal-b-l{
+    flex: 7;
+}
+
+.new-proposal-b-r{
+    flex: 3.5;
+}
+
+.new-proposal-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.wallet-container1{
+    padding: 0.9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px grey solid;
+    border-radius: 20px;
+    margin: 4rem 0rem;
+}
+
+form{
+    background-color: white;
+    border: none;
+    margin: 0px;
+}
+
+.connect-button{
+    display: block;
+    width: 100%;
+    padding: 0.3rem 1.9rem;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.ip-style{
+    border: 1px darkgray solid;
+    border-radius: 20px;
+    width: 100%;
+    padding: 0.2rem 0.7rem;
+}
+
+lable {
+    color: #57606a;
+    font-weight: 500;
+    font-size: small;
+}
+
+input:focus{
+    outline: none !important;
+    border:1px solid var(--gray);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+textarea:focus{
+    outline: none !important;
+    border:1px solid var(--gray);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.info{
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    border: 0.5px darkgray solid;
+    border-radius: 20px;
+}
+

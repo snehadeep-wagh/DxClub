@@ -1,0 +1,16 @@
+.club-component {
+  border: 0.5px rgb(224, 221, 221) solid;
+  background-color: whitesmoke;
+  width: 11rem;
+  height: 13rem;
+  border-radius: 8%;
+  margin: 0.5rem 1rem;
+}
+
+.view-button-style {
+    width: 4rem;
+    height: 2rem;
+    color: black;
+    border: 0.1rem solid gray;
+    border-radius: 50rem;
+}
